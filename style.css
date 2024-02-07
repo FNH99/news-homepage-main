@@ -49,5 +49,29 @@ li a:hover {
 .container {
     margin: 80px auto;
     max-width: 900px;
-    
+}
+
+
+/* GRID CONTAINER */
+.grid-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-box > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.item1 {
+    grid-column: 1 / span 2;
+  }
+
+.item2 {
+    grid-area: 1 / 3 / span 2;
 }
