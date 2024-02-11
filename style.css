@@ -109,6 +109,10 @@ p {
 .item2 h3 {
     font-size: 1rem;
 }
+.item2 h3:hover {
+    color: var(--Soft-orange);
+    cursor: pointer;
+}
 .item2 p {
     margin: .5rem 0; 
 }
@@ -162,6 +166,6 @@ p {
     font-weight: 800;
 }
 .small-text-box h3:hover {
-    color: var(--Soft-orange);
+    color: var(--Soft-red);
     cursor: pointer;
 }
