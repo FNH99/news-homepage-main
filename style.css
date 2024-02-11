@@ -130,10 +130,13 @@ p {
 
 
 /* PAGE DESC */
-.item4 {
+.item4, .small-text-box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.item4 {
+    margin-top: .5rem;
 }
 .item4 button {
     border: none;
@@ -147,5 +150,18 @@ p {
 }
 .item4 button:hover {
     background-color: var(--Very-dark-blue);
+    cursor: pointer;
+}
+
+/* SUB NEWS */
+.small-text-box h2 {
+    color: rgb(186, 186, 186);
+}
+.small-text-box h3 {
+    font-size: 1rem;
+    font-weight: 800;
+}
+.small-text-box h3:hover {
+    color: var(--Soft-orange);
     cursor: pointer;
 }
