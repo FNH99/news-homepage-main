@@ -45,6 +45,10 @@ li a:hover {
     color: var(--Soft-orange);
 }
 
+#mobile-nav {
+    display: none;
+}
+
 
 /* MAIN CONTAINER */
 .container {
@@ -184,6 +188,7 @@ p {
     }
     .container {
         max-width: 400px;
+        margin: 20px auto;
     }
     .grid-box {
         display: flex;
@@ -194,5 +199,20 @@ p {
     }
     .img-mobile {
         display: block;
+    }
+
+    /* MOBILE NAV BAR */
+    #desktop-nav {
+        display: none;
+    }
+    #mobile-nav {
+        display: block;
+        margin: 0 1rem;
+    }
+    .mobile-logo {
+        max-height: 25px;
+    }
+    .mobile-ham {
+        margin-top: .25rem;
     }
 }
